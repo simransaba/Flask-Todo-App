@@ -1,0 +1,65 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Set basic body styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centers text elements like nav items */
+}
+
+/* Center the container both vertically and horizontally */
+html, body {
+    height: 100%; /* Full height of viewport */
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 80vh; /* Adjust height as needed */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+/* Style the nav links */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 15px; /* Add spacing between links */
+    text-decoration: none;
+    color: #007BFF; /* Optional: Change link color */
+    font-size: 1.2em;
+}
+
+/* Center the flash messages */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: none;
+    color: #000000;
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cursive';
+}
+
+body{
+    background: url("1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
